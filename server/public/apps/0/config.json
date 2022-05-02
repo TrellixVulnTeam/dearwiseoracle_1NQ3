@@ -1,0 +1,803 @@
+{
+  "pages": {
+    "home": {
+      "type": "NORMAL",
+      "mode": "FIT_WINDOW",
+      "layout": {
+        "LARGE": "home-layout-large"
+      },
+      "isVisible": true,
+      "id": "home",
+      "isDefault": true,
+      "header": false,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "home-layout-large": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "100.0%",
+            "height": "100.0%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_51": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "width": "400px",
+            "height": "60px",
+            "bottom": "25px"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "top": true,
+              "left": false,
+              "right": true
+            },
+            "hCenter": true,
+            "vCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1.1%",
+            "right": "85.5%",
+            "top": "89.5%",
+            "bottom": "6.8%",
+            "width": "13.4%",
+            "height": "3.7%"
+          },
+          "widgetId": "widget_32",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "85.2%",
+            "right": "5.9%",
+            "top": "4.1%",
+            "bottom": "86.3%",
+            "width": "8.9%",
+            "height": "9.6%"
+          },
+          "widgetId": "widget_33",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "86.4%",
+            "right": "7.3%",
+            "top": "1.0%",
+            "bottom": "95.9%",
+            "width": "6.3%",
+            "height": "3.1%"
+          },
+          "widgetId": "widget_34",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "label": "Map FixedLayout"
+    },
+    "layout_52": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {},
+          "widgetId": "widget_8"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {},
+          "widgetId": "widget_9"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "400px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "400px",
+            "height": "60px"
+          },
+          "widgetId": "widget_28",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "400px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "400px",
+            "height": "60px"
+          },
+          "widgetId": "widget_29"
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "400px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "400px",
+            "height": "60px"
+          },
+          "widgetId": "widget_30"
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "400px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "400px",
+            "height": "60px"
+          },
+          "widgetId": "widget_31"
+        }
+      },
+      "label": "Controller layout"
+    },
+    "layout_53": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_28",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Open widget layout"
+    },
+    "layout_58": {
+      "type": "FIXED"
+    }
+  },
+  "widgets": {
+    "widget_23": {
+      "id": "widget_23",
+      "uri": "widgets/arcgis/arcgis-map/",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLocate": true,
+          "canCompass": true,
+          "canLayers": true,
+          "canBaseMap": true,
+          "canMeasure": true,
+          "canFullScreen": true,
+          "canScaleBar": true,
+          "canSelect": true,
+          "canSelectState": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 62392681.9681666,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -9618055.594079282,
+              "y": 2742694.1576124304
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -14025717.436191637,
+            "ymin": -14158.005806157831,
+            "xmax": -5210393.751966928,
+            "ymax": 5499546.321031019
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "initialMapDataSourceID": "dataSource_add_from_url_entry"
+      },
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_51"
+        }
+      },
+      "version": "1.8.0",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_add_from_url_entry",
+          "mainDataSourceId": "dataSource_add_from_url_entry"
+        }
+      ],
+      "label": "Map"
+    },
+    "widget_24": {
+      "id": "widget_24",
+      "uri": "widgets/common/controller/",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {
+            "widget_26": {
+              "width": 527,
+              "height": 278
+            }
+          }
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            },
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "var(--dark)",
+                "border": {
+                  "color": "#076fe5",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "#a945b4"
+              },
+              "active": {
+                "bg": "var(--dark-900)",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_52"
+        },
+        "_openwidget": {
+          "LARGE": "layout_53"
+        }
+      },
+      "widgets": [
+        "widget_8",
+        "widget_9"
+      ],
+      "version": "1.8.0",
+      "label": "Widget Controller"
+    },
+    "widget_8": {
+      "id": "widget_8",
+      "uri": "widgets/arcgis/map-layers/",
+      "config": {
+        "useMapWidget": true,
+        "opacity": false,
+        "goto": false,
+        "information": true,
+        "setVisibility": true
+      },
+      "useMapWidgetIds": [
+        "widget_23"
+      ],
+      "version": "1.8.0",
+      "label": "Map Layers"
+    },
+    "widget_9": {
+      "id": "widget_9",
+      "uri": "widgets/arcgis/legend/",
+      "config": {},
+      "useMapWidgetIds": [
+        "widget_23"
+      ],
+      "version": "1.8.0",
+      "label": "Legend"
+    },
+    "widget_28": {
+      "uri": "widgets/arcgis/draw/",
+      "version": "1.6.0",
+      "label": "Draw",
+      "config": {
+        "isDisplayCanvasLayer": false,
+        "arrangement": "Toolbar",
+        "drawMode": "continuous",
+        "drawingTools": [
+          "point",
+          "polyline",
+          "polygon",
+          "rectangle",
+          "circle"
+        ],
+        "measurementsInfo": {
+          "enableMeasurements": true,
+          "fontsColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fontsSize": 12,
+          "haloColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "haloSize": 2
+        },
+        "measurementsUnitsInfos": [
+          {
+            "actived": true,
+            "type": "Point",
+            "value": "dd",
+            "note": "DD",
+            "label": "Y°N, X°E"
+          },
+          {
+            "actived": true,
+            "type": "Point",
+            "value": "dms",
+            "note": "DMS",
+            "label": "Y°A'B\"N, X°C'D\"E"
+          },
+          {
+            "actived": true,
+            "type": "Polyline",
+            "value": "kilometers",
+            "note": "Kilometers",
+            "label": "km"
+          },
+          {
+            "actived": true,
+            "type": "Polyline",
+            "value": "meters",
+            "note": "Meters",
+            "label": "m"
+          },
+          {
+            "actived": true,
+            "type": "Polyline",
+            "value": "miles",
+            "note": "Miles",
+            "label": "mi"
+          },
+          {
+            "actived": true,
+            "type": "Polyline",
+            "value": "feet",
+            "note": "Feet",
+            "label": "ft"
+          },
+          {
+            "actived": true,
+            "type": "Polygon",
+            "value": "square-kilometers",
+            "note": "Square kilometers",
+            "label": "sq km"
+          },
+          {
+            "actived": true,
+            "type": "Polygon",
+            "value": "square-meters",
+            "note": "Square meters",
+            "label": "sq m"
+          },
+          {
+            "actived": true,
+            "type": "Polygon",
+            "value": "hectares",
+            "note": "Hectares",
+            "label": "ha"
+          },
+          {
+            "actived": false,
+            "type": "Polygon",
+            "value": "acres",
+            "note": "Acres",
+            "label": "ac"
+          },
+          {
+            "actived": true,
+            "type": "Polygon",
+            "value": "square-miles",
+            "note": "Square miles",
+            "label": "sq mi"
+          },
+          {
+            "actived": true,
+            "type": "Polygon",
+            "value": "square-feet",
+            "note": "Square feet",
+            "label": "sq ft"
+          }
+        ],
+        "drawingElevationMode3D": "relative-to-ground"
+      },
+      "id": "widget_28",
+      "useMapWidgetIds": [
+        "widget_23"
+      ]
+    },
+    "widget_29": {
+      "uri": "widgets/arcgis/bookmark/",
+      "version": "1.8.0",
+      "label": "Bookmark",
+      "config": {
+        "templateType": "CARD",
+        "isTemplateConfirm": false,
+        "isInitialed": false,
+        "bookmarks": [],
+        "initBookmark": false,
+        "runtimeAddAllow": false,
+        "autoPlayAllow": false,
+        "autoInterval": 3,
+        "autoLoopAllow": true,
+        "style": {
+          "id": "default"
+        },
+        "direction": "HORIZON",
+        "pageStyle": "PAGING",
+        "space": 10,
+        "scrollBarOpen": true,
+        "navigatorOpen": false,
+        "transition": "None",
+        "transitionDirection": "H",
+        "displayType": "SELECTED",
+        "itemHeight": 240,
+        "itemWidth": 240,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "effect": {
+            "type": "None",
+            "option": {
+              "direction": "TOP",
+              "configType": "DEFAULT"
+            }
+          },
+          "oneByOneEffect": null,
+          "previewId": null
+        }
+      },
+      "id": "widget_29"
+    },
+    "widget_30": {
+      "uri": "widgets/arcgis/oriented-imagery/",
+      "version": "1.8.0",
+      "label": "Oriented Imagery",
+      "config": {
+        "editingEnabled": false,
+        "vectorLayers": [],
+        "oicList": []
+      },
+      "id": "widget_30"
+    },
+    "widget_31": {
+      "uri": "widgets/common/chart/",
+      "version": "1.8.0",
+      "label": "Chart",
+      "config": {
+        "tools": {
+          "cursorEnable": true
+        }
+      },
+      "id": "widget_31"
+    },
+    "widget_32": {
+      "uri": "widgets/common/button/",
+      "version": "1.8.0",
+      "label": "Button",
+      "config": {
+        "functionConfig": {
+          "text": "Go to DWOracle site",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1650678816749.png",
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#000000",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  22,
+                  22,
+                  22,
+                  22
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "rgba(0,0,0,0)",
+                "size": 14
+              },
+              "boxShadow": {
+                "offsetX": "0px",
+                "offsetY": "0px",
+                "blur": "0px",
+                "spread": "0px",
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "background": {
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#a945b4",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  22,
+                  22,
+                  22,
+                  22
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_32",
+      "style": {
+        "borderRadius": {
+          "number": [
+            33,
+            33,
+            33,
+            33
+          ],
+          "unit": "px"
+        },
+        "border": {
+          "type": "solid",
+          "width": "0px"
+        }
+      },
+      "useDataSources": []
+    },
+    "widget_33": {
+      "uri": "widgets/common/image/",
+      "version": "1.8.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_27/1650678448896.png",
+            "originalUrl": "${appResourceUrl}/images/widget_27/1650678448896.png",
+            "fileName": "1650678448896.png",
+            "originalName": "dwe2.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1650678448896",
+            "isUseCompress": false,
+            "originalWidth": 900,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_33"
+    },
+    "widget_34": {
+      "uri": "widgets/common/image/",
+      "version": "1.8.0",
+      "label": "Image 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_34/1650690993477.png",
+            "originalUrl": "${appResourceUrl}/images/widget_34/1650690993477.png",
+            "fileName": "1650690993477.png",
+            "originalName": "Sin título-1.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1650690993477",
+            "isUseCompress": false,
+            "originalWidth": 3300,
+            "originalHeight": 817
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_34"
+    }
+  },
+  "exbVersion": "1.8.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/dark/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "launchpad",
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_add_from_url_entry": {
+      "type": "WEB_MAP",
+      "itemId": "5d01baf772b347bbb04a442217558bed",
+      "id": "dataSource_add_from_url_entry",
+      "portalUrl": "https://IvFuYKyzHoDYwXf0.maps.arcgis.com",
+      "sourceLabel": "DWEO Base"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "home": []
+    }
+  ],
+  "timestamp": 1650771942216,
+  "header": {
+    "layout": {
+      "LARGE": "layout_58"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://dweo.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "customTheme": {}
+}

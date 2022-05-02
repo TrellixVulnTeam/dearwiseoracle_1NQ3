@@ -1,0 +1,9 @@
+{
+  "devEnv": {
+    "prod": {
+      "portalUrl": "https://dweo.maps.arcgis.com",
+      "clientId": "QqZG7g4sQZbmcWWY",
+      "isWebTier": false
+    }
+  }
+}

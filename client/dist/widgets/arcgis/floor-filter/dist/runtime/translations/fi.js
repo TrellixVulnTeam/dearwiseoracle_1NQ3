@@ -1,0 +1,1 @@
+define({_widgetLabel:"Kerrossuodatin (beeta)",floorfilter_noMap:"Kerrossuodatin",floorfilter_notFloorAware:"Valittu kartta ei huomioi kerrosta"});

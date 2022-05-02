@@ -1,0 +1,1 @@
+define({_widgetLabel:"Korrusefilter (beetaversioon)",floorfilter_noMap:"Korrusefilter",floorfilter_notFloorAware:"Valitud kaart ei ole korruseteadlik"});

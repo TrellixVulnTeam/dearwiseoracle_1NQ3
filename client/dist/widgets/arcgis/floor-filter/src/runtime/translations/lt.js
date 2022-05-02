@@ -1,0 +1,1 @@
+define({_widgetLabel:"Aukštų filtras (beta versija)",floorfilter_noMap:"Aukštų filtras",floorfilter_notFloorAware:"Pasirinktas žemėlapis neatsižvelgia į aukštus"});

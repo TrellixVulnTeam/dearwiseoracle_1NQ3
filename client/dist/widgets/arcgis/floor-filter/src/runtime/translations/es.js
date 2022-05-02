@@ -1,0 +1,1 @@
+define({_widgetLabel:"Filtro de planta (beta)",floorfilter_noMap:"Filtro de planta",floorfilter_notFloorAware:"El mapa seleccionado no tiene en cuenta las plantas"});

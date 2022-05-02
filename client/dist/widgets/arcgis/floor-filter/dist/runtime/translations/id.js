@@ -1,0 +1,1 @@
+define({_widgetLabel:"Filter Lantai (beta)",floorfilter_noMap:"Filter Lantai",floorfilter_notFloorAware:"Peta yang dipilih tidak sadar lantai"});

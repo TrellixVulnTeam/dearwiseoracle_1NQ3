@@ -1,0 +1,30 @@
+{
+  "1650678448896": {
+    "originalName": "dwe2.png",
+    "fileName": "1650678448896.png",
+    "size": 81292,
+    "url": "${appResourceUrl}/images/widget_27/1650678448896.png",
+    "created": 1650678448896,
+    "resourcesPrefix": "images/widget_27",
+    "referedIds": [],
+    "originId": "1650678448896",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 900,
+    "originalHeight": 900
+  },
+  "1650690993477": {
+    "originalName": "Sin título-1.png",
+    "fileName": "1650690993477.png",
+    "size": 61866,
+    "url": "${appResourceUrl}/images/widget_34/1650690993477.png",
+    "created": 1650690993477,
+    "resourcesPrefix": "images/widget_34",
+    "referedIds": [],
+    "originId": "1650690993477",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 3300,
+    "originalHeight": 817
+  }
+}

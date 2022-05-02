@@ -1,0 +1,1 @@
+define({_widgetLabel:"Filtro piano (beta)",floorfilter_noMap:"Filtro piano",floorfilter_notFloorAware:"La mappa selezionata non è una mappa di piano"});
