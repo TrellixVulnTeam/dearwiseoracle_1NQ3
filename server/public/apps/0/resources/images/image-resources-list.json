@@ -26,5 +26,19 @@
     "isUseCompress": false,
     "originalWidth": 3300,
     "originalHeight": 817
+  },
+  "1651472913206": {
+    "originalName": "DWE Oracle - Logo - Bronze - April 28th - 2022.png",
+    "fileName": "1651472913206.png",
+    "size": 63257,
+    "url": "${appResourceUrl}/images/widget_33/1651472913206.png",
+    "created": 1651472913206,
+    "resourcesPrefix": "images/widget_33",
+    "referedIds": [],
+    "originId": "1651472913206",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 3508,
+    "originalHeight": 1320
   }
 }

@@ -52,8 +52,7 @@
       "order": [
         "0",
         "3",
-        "4",
-        "5"
+        "4"
       ],
       "content": {
         "0": {
@@ -102,37 +101,14 @@
         "4": {
           "type": "WIDGET",
           "bbox": {
-            "left": "85.2%",
-            "right": "5.9%",
-            "top": "4.1%",
-            "bottom": "86.3%",
-            "width": "8.9%",
-            "height": "9.6%"
+            "left": "80.9%",
+            "right": "4.8%",
+            "top": "0.0%",
+            "bottom": "81.2%",
+            "width": "14.3%",
+            "height": "18.8%"
           },
           "widgetId": "widget_33",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": false
-        },
-        "5": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "86.4%",
-            "right": "7.3%",
-            "top": "1.0%",
-            "bottom": "95.9%",
-            "width": "6.3%",
-            "height": "3.1%"
-          },
-          "widgetId": "widget_34",
           "setting": {
             "autoProps": {
               "right": false,
@@ -708,16 +684,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_27/1650678448896.png",
-            "originalUrl": "${appResourceUrl}/images/widget_27/1650678448896.png",
-            "fileName": "1650678448896.png",
-            "originalName": "dwe2.png",
+            "url": "${appResourceUrl}/images/widget_33/1651472913206.png",
+            "originalUrl": "${appResourceUrl}/images/widget_33/1651472913206.png",
+            "fileName": "1651472913206.png",
+            "originalName": "DWE Oracle - Logo - Bronze - April 28th - 2022.png",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/png",
-            "originalId": "1650678448896",
+            "originalId": "1651472913206",
             "isUseCompress": false,
-            "originalWidth": 900,
-            "originalHeight": 900
+            "originalWidth": 3508,
+            "originalHeight": 1320
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -726,38 +702,8 @@
         },
         "styleConfig": {}
       },
-      "id": "widget_33"
-    },
-    "widget_34": {
-      "uri": "widgets/common/image/",
-      "version": "1.8.0",
-      "label": "Image 2",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_34/1650690993477.png",
-            "originalUrl": "${appResourceUrl}/images/widget_34/1650690993477.png",
-            "fileName": "1650690993477.png",
-            "originalName": "Sin título-1.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1650690993477",
-            "isUseCompress": false,
-            "originalWidth": 3300,
-            "originalHeight": 817
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_34"
+      "id": "widget_33",
+      "useDataSourcesEnabled": false
     }
   },
   "exbVersion": "1.8.0",
@@ -778,6 +724,20 @@
       "id": "dataSource_add_from_url_entry",
       "portalUrl": "https://IvFuYKyzHoDYwXf0.maps.arcgis.com",
       "sourceLabel": "DWEO Base"
+    },
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Imagery Hybrid",
+      "itemId": "86265e5a4bbb4187a59719cf134e0018",
+      "portalUrl": "https://dweo.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "Imagery (WGS84)",
+      "itemId": "52bdc7ab7fb044d98add148764eaa30a",
+      "portalUrl": "https://dweo.maps.arcgis.com"
     }
   },
   "messageConfigs": {},
@@ -786,7 +746,7 @@
       "home": []
     }
   ],
-  "timestamp": 1650771942216,
+  "timestamp": 1651490980471,
   "header": {
     "layout": {
       "LARGE": "layout_58"
