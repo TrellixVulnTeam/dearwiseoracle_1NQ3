@@ -710,7 +710,13 @@
   "mainSizeMode": "LARGE",
   "theme": "themes/dark/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
   },
   "template": "launchpad",
   "widgetsManifest": {},
@@ -738,6 +744,49 @@
       "sourceLabel": "Imagery (WGS84)",
       "itemId": "52bdc7ab7fb044d98add148764eaa30a",
       "portalUrl": "https://dweo.maps.arcgis.com"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "Coasts Gateway 2 - Coral Reefs and Mangroves",
+      "itemId": "c9919a6e43964947839a57f513b2d6ab",
+      "portalUrl": "https://dweo.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "1805628134d-layer-2": {
+          "id": "dataSource_3-1805628134d-layer-2",
+          "type": "MAP_SERVICE",
+          "url": "https://gis.unep-wcmc.org/arcgis/rest/services/marine/WCMC_008_CoralReefs_WMS/MapServer",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "290c5baee9434ab9a3c7220705b62d5f",
+          "label": "Global Distribution of Coral reefs (EN_WBE_CORN_WCMC_WMS)",
+          "isHidden": false
+        },
+        "180562b4854-layer-17": {
+          "id": "dataSource_3-180562b4854-layer-17",
+          "type": "MAP_SERVICE",
+          "url": "https://gis.unep-wcmc.org/arcgis/rest/services/marine/WCMC_011_WorldAtlasMangroves_WMS/MapServer",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "b8c0a70798774a1bacbdfcec94d44e91"
+        },
+        "1808969b10f-layer-10": {
+          "id": "dataSource_3-1808969b10f-layer-10",
+          "type": "MAP_SERVICE",
+          "url": "https://gis.unep-wcmc.org/arcgis/rest/services/marine/WCMC_035_MeanSeaSurfaceTemperature2015/MapServer",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "b8a167dbdfc0406e8729de11a694a0f8"
+        },
+        "18056596d28-layer-29": {
+          "id": "dataSource_3-18056596d28-layer-29",
+          "type": "FEATURE_LAYER",
+          "url": "https://services.arcgis.com/As5CFN3ThbQpy8Ph/arcgis/rest/services/LongitudesAndLatitudes/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "6d4229b2d9f3418fa60f4a1570c9082f",
+          "geometryType": "esriGeometryPolyline",
+          "label": "Major Parallels and Meridians",
+          "isHidden": true
+        }
+      },
+      "isHidden": false
     }
   },
   "messageConfigs": {},
@@ -746,7 +795,7 @@
       "home": []
     }
   ],
-  "timestamp": 1651490980471,
+  "timestamp": 1652093285626,
   "header": {
     "layout": {
       "LARGE": "layout_58"

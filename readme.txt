@@ -1,3 +1,1 @@
 DearWiseOracle
-
-Development repository:
