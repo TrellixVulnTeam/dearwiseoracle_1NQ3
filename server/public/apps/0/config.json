@@ -52,8 +52,7 @@
       "order": [
         "0",
         "3",
-        "4",
-        "5"
+        "4"
       ],
       "content": {
         "0": {
@@ -102,37 +101,14 @@
         "4": {
           "type": "WIDGET",
           "bbox": {
-            "left": "85.2%",
-            "right": "5.9%",
-            "top": "4.1%",
-            "bottom": "86.3%",
-            "width": "8.9%",
-            "height": "9.6%"
+            "left": "80.9%",
+            "right": "4.8%",
+            "top": "0.0%",
+            "bottom": "81.2%",
+            "width": "14.3%",
+            "height": "18.8%"
           },
           "widgetId": "widget_33",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": false
-        },
-        "5": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "86.4%",
-            "right": "7.3%",
-            "top": "1.0%",
-            "bottom": "95.9%",
-            "width": "6.3%",
-            "height": "3.1%"
-          },
-          "widgetId": "widget_34",
           "setting": {
             "autoProps": {
               "right": false,
@@ -708,16 +684,16 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_27/1650678448896.png",
-            "originalUrl": "${appResourceUrl}/images/widget_27/1650678448896.png",
-            "fileName": "1650678448896.png",
-            "originalName": "dwe2.png",
+            "url": "${appResourceUrl}/images/widget_33/1651472913206.png",
+            "originalUrl": "${appResourceUrl}/images/widget_33/1651472913206.png",
+            "fileName": "1651472913206.png",
+            "originalName": "DWE Oracle - Logo - Bronze - April 28th - 2022.png",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/png",
-            "originalId": "1650678448896",
+            "originalId": "1651472913206",
             "isUseCompress": false,
-            "originalWidth": 900,
-            "originalHeight": 900
+            "originalWidth": 3508,
+            "originalHeight": 1320
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -726,45 +702,21 @@
         },
         "styleConfig": {}
       },
-      "id": "widget_33"
-    },
-    "widget_34": {
-      "uri": "widgets/common/image/",
-      "version": "1.8.0",
-      "label": "Image 2",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_34/1650690993477.png",
-            "originalUrl": "${appResourceUrl}/images/widget_34/1650690993477.png",
-            "fileName": "1650690993477.png",
-            "originalName": "Sin título-1.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1650690993477",
-            "isUseCompress": false,
-            "originalWidth": 3300,
-            "originalHeight": 817
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_34"
+      "id": "widget_33",
+      "useDataSourcesEnabled": false
     }
   },
   "exbVersion": "1.8.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/dark/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
   },
   "template": "launchpad",
   "widgetsManifest": {},
@@ -778,6 +730,63 @@
       "id": "dataSource_add_from_url_entry",
       "portalUrl": "https://IvFuYKyzHoDYwXf0.maps.arcgis.com",
       "sourceLabel": "DWEO Base"
+    },
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Imagery Hybrid",
+      "itemId": "86265e5a4bbb4187a59719cf134e0018",
+      "portalUrl": "https://dweo.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "Imagery (WGS84)",
+      "itemId": "52bdc7ab7fb044d98add148764eaa30a",
+      "portalUrl": "https://dweo.maps.arcgis.com"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "Coasts Gateway 2 - Coral Reefs and Mangroves",
+      "itemId": "c9919a6e43964947839a57f513b2d6ab",
+      "portalUrl": "https://dweo.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "1805628134d-layer-2": {
+          "id": "dataSource_3-1805628134d-layer-2",
+          "type": "MAP_SERVICE",
+          "url": "https://gis.unep-wcmc.org/arcgis/rest/services/marine/WCMC_008_CoralReefs_WMS/MapServer",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "290c5baee9434ab9a3c7220705b62d5f",
+          "label": "Global Distribution of Coral reefs (EN_WBE_CORN_WCMC_WMS)",
+          "isHidden": false
+        },
+        "180562b4854-layer-17": {
+          "id": "dataSource_3-180562b4854-layer-17",
+          "type": "MAP_SERVICE",
+          "url": "https://gis.unep-wcmc.org/arcgis/rest/services/marine/WCMC_011_WorldAtlasMangroves_WMS/MapServer",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "b8c0a70798774a1bacbdfcec94d44e91"
+        },
+        "1808969b10f-layer-10": {
+          "id": "dataSource_3-1808969b10f-layer-10",
+          "type": "MAP_SERVICE",
+          "url": "https://gis.unep-wcmc.org/arcgis/rest/services/marine/WCMC_035_MeanSeaSurfaceTemperature2015/MapServer",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "b8a167dbdfc0406e8729de11a694a0f8"
+        },
+        "18056596d28-layer-29": {
+          "id": "dataSource_3-18056596d28-layer-29",
+          "type": "FEATURE_LAYER",
+          "url": "https://services.arcgis.com/As5CFN3ThbQpy8Ph/arcgis/rest/services/LongitudesAndLatitudes/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "6d4229b2d9f3418fa60f4a1570c9082f",
+          "geometryType": "esriGeometryPolyline",
+          "label": "Major Parallels and Meridians",
+          "isHidden": true
+        }
+      },
+      "isHidden": false
     }
   },
   "messageConfigs": {},
@@ -786,7 +795,7 @@
       "home": []
     }
   ],
-  "timestamp": 1650771942216,
+  "timestamp": 1652093285626,
   "header": {
     "layout": {
       "LARGE": "layout_58"
